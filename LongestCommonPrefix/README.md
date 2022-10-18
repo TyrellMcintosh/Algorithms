@@ -6,4 +6,4 @@
 <p><b>13.6 MB</b> less than <b>82.12%</b> of Python online submissions.</p>
 
 <h3> Test Cases </h3>
-<p>124/124 test cases passed<p>
+<p>124/124 test cases passed.<p>

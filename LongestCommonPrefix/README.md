@@ -1,3 +1,8 @@
+### Longest Common Prefix
+<p>Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "".</p>
+
+#
+
 <h2> Accepted ✅ </h2>
 <h3> Runtime </h3>
 <p><b>21 ms<b> faster than <b>91.57%</b> of Python online submissions.</p>

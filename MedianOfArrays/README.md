@@ -1,9 +1,16 @@
 ### Find the median of two sorted arrays
-<p>Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.</p>
+<p>Instructions: Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.</p>
+
+<h3> Concepts Used
+<ul> 
+<li>Divide & Conquer</li>
+<li>Math</li>
+</ul>
 
 #
 
-<h2> Accepted ✅ </h2>
+### Performance
+
 <h3> Runtime </h3>
 <p><b>155 ms<b> faster than <b>68.21%</b> of Python online submissions.</p>
 

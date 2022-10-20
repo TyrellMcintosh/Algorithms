@@ -1,9 +1,17 @@
 ### Letter Combinations of a Phone Number
-<p>Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.</p>
+<p>Instructions: Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.</p>
+<h3> Concepts Used
+<ul> 
+<li>Mapping of Values</li>
+<li>Backtracking</li>
+<li>Python match case</li>
+<li>Dictionary</li>
+</ul>
 
 #
 
-<h2> Accepted ✅ </h2>
+### Performance
+
 <h3> Runtime </h3>
 <p><b>50 ms<b> faster than <b>63.79%</b> of Python online submissions.</p>
 

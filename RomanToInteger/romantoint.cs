@@ -25,7 +25,19 @@ namespace RomanToInt
 				{'D', 500},
 				{'M', 1000}
 			};
-      
+			/*
+			for (int i = 0; i < s.Length; i++)
+			{
+				//s[i] = s[i].ToUpper();
+				
+				if (roman.Contains(s[i]) == false)	// Constraint: must contain roman numerals only
+				{
+					Console.WriteLine("Invalid input.");
+					return 0;
+				}
+				
+			}
+			*/
 			ans += (int)roman[s[0]];
 			
 			for (int i = 1; i < s.Length; i++)
@@ -41,8 +53,8 @@ namespace RomanToInt
 			}
 			return ans;
 		}
-  }
-  
+    }
+
 	class Program
 	{
 		static void Main(string[] args)

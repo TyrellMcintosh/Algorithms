@@ -1,9 +1,15 @@
 ### Permutations
-<p>Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.</p>
+<p>Instructions: Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.</p>
+<h3> Concepts Used
+<ul> 
+<li>Backtracking</li>
+<li>Recursion</li>
+</ul>
 
 #
 
-<h2> Accepted ✅ </h2>
+### Performance
+
 <h3> Runtime </h3>
 <p><b>20 ms<b> faster than <b>97.88%</b> of Python online submissions.</p>
 

@@ -25,7 +25,7 @@ class Solution(object):
         x = 0
         rlist = []
 
-        if length == 0:         # REMEMBER to account for spaces AND DUPLICATES
+        if length == 0:         
             return []
 
         elif length == 1:

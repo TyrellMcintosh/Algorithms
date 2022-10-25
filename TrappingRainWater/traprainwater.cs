@@ -21,17 +21,25 @@ namespace RainWater
                 if (height[left] <= height[right])
                 {
                     if (leftWall > height[left])
+                    {
                         fill += leftWall - height[left];
+                    }
                     else
+                    {
                         leftWall = height[left];
+                    }
                     left++;
                 }
                 else
                 {
                     if (rightWall > height[right])
+                    {
                         fill += rightWall - height[right];
+                    }
                     else
+                    {
                         rightWall = height[right];
+                    }
                     right--;
                 }
             }

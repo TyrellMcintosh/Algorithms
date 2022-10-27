@@ -9,6 +9,7 @@
 * [Letter Combinations of Phone Number](/LetterCombinationsOfPhoneNumber/phonenumberletters.py)
 * [Permutations](Permutations/permutations.py)
 * [Find First and Last Position of Element](FirstandLastPosition/findfirstlast.py)
+* [Merge Intervals](MergeIntervals/mergeintervals.py)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -22,7 +23,7 @@
 
 | Language | Python | C# |
 |:--------:|:------:|:--:|
-| # solved |   6    | 4  |
+| # solved |   7    | 4  |
 
 #
 
@@ -38,9 +39,8 @@
 * Math x 2
 * Recursion x 1
 #### Fundamental
-* Array x 6
+* Array x 7
 * String x 3
 * Two Pointers x 2
+* Sorting x 1
 * Stack x 1
-
-

@@ -17,14 +17,7 @@ class Solution(object):
                         return intervals    # overlap 1 interval
                     else:
                         while i != stop:
-                            if intervals[i+1][0] > newInterval[1]:
-                                if intervals[i][1] > newInterval[0]:
-                                    intervals[i][1] = newInterval[1]
-                                    return intervals
-                                if intervals[i][1] < newInterval[1]:
-                                    intervals[i] = newInterval
-                                    return intervals
-                            elif intervals[i+1][1] >= newInterval[1]:
+                            if intervals[i+1][1] >= newInterval[1]:
                                 intervals[i][1] = intervals[i+1][1]
                                 intervals.remove(intervals[i+1])
                                 return intervals    # Overlap multiple
@@ -41,21 +34,14 @@ class Solution(object):
 
             elif newInterval[0] < intervals[i][0]:
                 if newInterval[1] < intervals[i][0]:
-                    intervals.insert(i, newInterval)
+                    intervals.insert(0, newInterval)
                     return intervals    # no overlap at beginning
-                elif newInterval[1] <= intervals[i][1]:
-                    intervals[i][0] = newInterval[0]
+                elif newInterval[1] < intervals[i][1]:
+                    intervals[0][0] = newInterval[0]
                     return intervals    # overlap at beginning
                 else:
                     while i != stop:
-                        if intervals[i+1][0] > newInterval[1]:
-                            if intervals[i][1] > newInterval[0] and intervals[i][0] < newInterval[0]:
-                                intervals[i][1] = newInterval[1]
-                                return intervals
-                            if intervals[i][1] < newInterval[1]:
-                                intervals[i] = newInterval
-                                return intervals
-                        elif intervals[i+1][1] >= newInterval[1]:
+                        if intervals[i+1][1] >= newInterval[1]:
                             intervals[i+1][0] = newInterval[0]
                             intervals.remove(intervals[i])
                             return intervals    # Overlap multiple
@@ -66,7 +52,7 @@ class Solution(object):
                     intervals[i] = newInterval
                     return intervals
 
-        if newInterval[0] >= intervals[stop][0]:
+        if newInterval[0] >= intervals[0][0]:
                 if newInterval[1] <= intervals[stop][1]:
                     return intervals    # between the interval
                 elif newInterval[0] > intervals[stop][1]:
@@ -76,7 +62,7 @@ class Solution(object):
                     intervals[stop][1] = newInterval[1]
                     return intervals    # merged
 
-        elif newInterval[0] < intervals[stop][0] and newInterval[1] < intervals[stop][0]:
+        elif newInterval[0] < intervals[stop][0] and newInterval[1] < intervals[stop][1]:
             intervals.insert(stop, newInterval)
             return intervals
 
@@ -86,8 +72,7 @@ class Solution(object):
                 return intervals    # insert at first
 
             elif newInterval[1] > intervals[stop][1]:
-                intervals[stop] = newInterval
-                return intervals   # interval is wider
+                return [newInterval]   # interval is wider
 
             elif newInterval[1] <= intervals[stop][1]:
                 intervals[stop][0] = newInterval[0]
@@ -95,10 +80,9 @@ class Solution(object):
 
         return intervals
 
-
 class Test:
-    interval1 = [[5,9], [12,13]]
-    new1 = [10,11]
+    interval1 = [[4,5], [6,9]]
+    new1 = [2,3]
     interval2 = [[1,2], [3,5], [6,7], [8,10], [12,16]]
     new2 = [4,8]
     interval3 = [[1,3], [6,9]]

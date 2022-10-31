@@ -10,6 +10,7 @@
 * [Permutations](Permutations/permutations.py)
 * [Find First and Last Position of Element](FirstandLastPosition/findfirstlast.py)
 * [Merge Intervals](MergeIntervals/mergeintervals.py)
+* [Insert Interval](InsertInterval/insertinterval.py)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -23,7 +24,7 @@
 
 | Language | Python | C# |
 |:--------:|:------:|:--:|
-| # solved |   7    | 4  |
+| # solved |   8    | 4  |
 
 #
 
@@ -39,7 +40,7 @@
 * Math x 2
 * Recursion x 1
 #### Fundamental
-* Array x 7
+* Array x 8
 * String x 3
 * Two Pointers x 2
 * Sorting x 1

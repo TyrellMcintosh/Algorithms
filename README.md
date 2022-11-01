@@ -22,7 +22,7 @@
 
 ### Languages
 
-| Language | Python | C# |
+| Problems | Python | C# |
 |:--------:|:------:|:--:|
 | # solved |   8    | 4  |
 

@@ -19,7 +19,7 @@
 * [Longest Common Prefix](LongestCommonPrefix/longestcommonprefix.py)
 * [Roman Numeral to Integer](RomanToInteger/romantoint.cs)
 * [Remove Element](RemoveElement/removeelement.cs)
-* [Climbing Stairs](limbingStairs/climbingstairs.cpp)
+* [Climbing Stairs](ClimbingStairs/climbingstairs.cpp)
 
 #
 

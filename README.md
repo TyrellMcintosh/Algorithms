@@ -13,6 +13,7 @@
 * [Merge Intervals](MergeIntervals/mergeintervals.py)
 * [Insert Interval](InsertInterval/insertinterval.py)
 * [Jump Game](JumpGame/jumpgame.cpp)
+* [Sort Colours](SortColours/sortcolours.cpp)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -27,7 +28,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   9    | 4  |  2  |
+| # solved |   9    | 4  |  3  |
 
 #
 
@@ -44,9 +45,9 @@
 * Greedy x 1
 * Recursion x 1
 #### Fundamental
-* Array x 10
+* Array x 11
 * String x 4
-* Two Pointers x 2
-* Sorting x 1
+* Two Pointers x 3
+* Sorting x 2
 * Stack x 1
 * Simulation x 1

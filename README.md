@@ -4,6 +4,7 @@
 * [Median of Arrays](MedianOfArrays/findmediansortedarrays.py)
 * [Permutation Sequence](PermutationSequence/permutationsequence.cs)
 * [Trapping Rain Water](TrappingRainWater/traprainwater.cs)
+* [Text Justification](TextJustification/textjustification.py)
 
 #### Medium
 * [Letter Combinations of Phone Number](/LetterCombinationsOfPhoneNumber/phonenumberletters.py)
@@ -24,7 +25,7 @@
 
 | Problems | Python | C# |
 |:--------:|:------:|:--:|
-| # solved |   8    | 4  |
+| # solved |   9    | 4  |
 
 #
 
@@ -40,8 +41,9 @@
 * Math x 2
 * Recursion x 1
 #### Fundamental
-* Array x 8
-* String x 3
+* Array x 9
+* String x 4
 * Two Pointers x 2
 * Sorting x 1
 * Stack x 1
+* Simulation x 1

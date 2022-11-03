@@ -19,6 +19,7 @@
 * [Longest Common Prefix](LongestCommonPrefix/longestcommonprefix.py)
 * [Roman Numeral to Integer](RomanToInteger/romantoint.cs)
 * [Remove Element](RemoveElement/removeelement.cs)
+* [Climbing Stairs](limbingStairs/climbingstairs.cpp)
 
 #
 
@@ -26,20 +27,20 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   9    | 4  |  1  |
+| # solved |   9    | 4  |  2  |
 
 #
 
 ### Skills
 #### Advanced
+* Dynamic Programming x 3
 * Backtracking x 2
-* Dynamic Programming x 2
 * Divide & Conquer x 1
 * Monotonic Stack x 1
 #### Intermediate
 * Hash Table x 3
+* Math x 3
 * Binary Search x 2
-* Math x 2
 * Greedy x 1
 * Recursion x 1
 #### Fundamental

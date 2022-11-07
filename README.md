@@ -14,6 +14,7 @@
 * [Insert Interval](InsertInterval/insertinterval.py)
 * [Jump Game](JumpGame/jumpgame.cpp)
 * [Sort Colours](SortColours/sortcolours.cpp)
+* [Partition List](PartitionList/partitionlist.py)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -28,7 +29,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   9    | 4  |  3  |
+| # solved |   10   | 4  |  3  |
 
 #
 
@@ -47,7 +48,8 @@
 #### Fundamental
 * Array x 11
 * String x 4
-* Two Pointers x 3
+* Two Pointers x 4
 * Sorting x 2
+* Linked List x 1
 * Stack x 1
 * Simulation x 1

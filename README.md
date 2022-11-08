@@ -17,6 +17,7 @@
 * [Partition List](PartitionList/partitionlist.py)
 * [Valid Sudoku](ValidSudoku/validsudoku.py)
 * [Set Matrix Zeroes](SetMatrixZeroes/setmatrixzeroes.py)
+* [Search a 2D Matrix](Search2DMatrix/search2dmatrix.cs)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -31,7 +32,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   12   | 4  |  3  |
+| # solved |   12   | 5  |  3  |
 
 #
 
@@ -44,15 +45,15 @@
 #### Intermediate
 * Hash Table x 5
 * Math x 3
-* Binary Search x 2
+* Binary Search x 3
 * Greedy x 1
 * Recursion x 1
 #### Fundamental
-* Array x 13
+* Array x 14
 * String x 4
 * Two Pointers x 4
+* Matrix x 3
 * Sorting x 2
-* Matrix x 2
 * Linked List x 1
 * Stack x 1
 * Simulation x 1

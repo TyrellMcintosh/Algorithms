@@ -1,6 +1,6 @@
 class Solution(object):
     def isValidSudoku(self, board):
-        seen = set()    # set saves performance as it's unchangeable and unindexed
+        seen = set()    # set improves performance as it's unchangeable and unindexed
 
         for r, row in enumerate(board):
             for c, val in enumerate(row):

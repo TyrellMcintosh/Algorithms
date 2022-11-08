@@ -15,6 +15,7 @@
 * [Jump Game](JumpGame/jumpgame.cpp)
 * [Sort Colours](SortColours/sortcolours.cpp)
 * [Partition List](PartitionList/partitionlist.py)
+* [Valid Sudoku](ValidSudoku/validsudoku.py)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -29,7 +30,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   10   | 4  |  3  |
+| # solved |   11   | 4  |  3  |
 
 #
 
@@ -40,16 +41,17 @@
 * Divide & Conquer x 1
 * Monotonic Stack x 1
 #### Intermediate
-* Hash Table x 3
+* Hash Table x 4
 * Math x 3
 * Binary Search x 2
 * Greedy x 1
 * Recursion x 1
 #### Fundamental
-* Array x 11
+* Array x 12
 * String x 4
 * Two Pointers x 4
 * Sorting x 2
+* Matrix x 1
 * Linked List x 1
 * Stack x 1
 * Simulation x 1

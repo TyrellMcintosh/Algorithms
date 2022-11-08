@@ -16,6 +16,7 @@
 * [Sort Colours](SortColours/sortcolours.cpp)
 * [Partition List](PartitionList/partitionlist.py)
 * [Valid Sudoku](ValidSudoku/validsudoku.py)
+* [Set Matrix Zeroes](SetMatrixZeroes/setmatrixzeroes.py)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -30,7 +31,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   11   | 4  |  3  |
+| # solved |   12   | 4  |  3  |
 
 #
 
@@ -41,17 +42,17 @@
 * Divide & Conquer x 1
 * Monotonic Stack x 1
 #### Intermediate
-* Hash Table x 4
+* Hash Table x 5
 * Math x 3
 * Binary Search x 2
 * Greedy x 1
 * Recursion x 1
 #### Fundamental
-* Array x 12
+* Array x 13
 * String x 4
 * Two Pointers x 4
 * Sorting x 2
-* Matrix x 1
+* Matrix x 2
 * Linked List x 1
 * Stack x 1
 * Simulation x 1

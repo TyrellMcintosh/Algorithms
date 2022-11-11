@@ -7,7 +7,7 @@ namespace Power
     {
         public double MyPow(double x, int n)
         {
-            if (x == 0 || x == 1 || x == -1)  // 0ⁿ = 0, 1ⁿ = 1
+            if (x == 0 || x == 1 || x == -1)  // 0ⁿ = 0, 1ⁿ = 1, -1ⁿ = -1
                 return x;
 
             if (n == 0)	// x⁰ = 1

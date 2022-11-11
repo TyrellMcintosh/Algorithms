@@ -18,6 +18,7 @@
 * [Valid Sudoku](ValidSudoku/validsudoku.py)
 * [Set Matrix Zeroes](SetMatrixZeroes/setmatrixzeroes.py)
 * [Search a 2D Matrix](Search2DMatrix/search2dmatrix.cs)
+* [Pow(x,n)](Pow(x%2Cn)/pow(x%2Cn).cs)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -32,7 +33,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   12   | 5  |  3  |
+| # solved |   12   |  6 |  3  |
 
 #
 
@@ -44,10 +45,10 @@
 * Monotonic Stack x 1
 #### Intermediate
 * Hash Table x 5
-* Math x 3
+* Math x 4
 * Binary Search x 3
+* Recursion x 2
 * Greedy x 1
-* Recursion x 1
 #### Fundamental
 * Array x 14
 * String x 4

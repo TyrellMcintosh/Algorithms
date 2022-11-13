@@ -22,19 +22,12 @@ namespace BST
         public TreeNode insert(TreeNode root, int v)
         {
             if (root == null)
-            {
-                root = new TreeNode();
-                root.val = v;
-            }
+                root = new TreeNode(v);
 
             else if (v < root.val)
-            {
                 root.left = insert(root.left, v);
-            }
             else
-            {
                 root.right = insert(root.right, v);
-            }
 
             return root;
         }
@@ -74,7 +67,6 @@ namespace BST
                     rlist.Insert(depth,new List<int>());
                 }
             }
-
             return rlist;
         }
     }

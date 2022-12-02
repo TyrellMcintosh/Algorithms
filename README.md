@@ -20,6 +20,7 @@
 * [Search a 2D Matrix](Search2DMatrix/search2dmatrix.cs)
 * [Pow(x,n)](Pow(x%2Cn)/pow(x%2Cn).cs)
 * [Breadth First Search](BreadthFirstSearch/breadthfirstsearch.cs)
+* [Gas Station](GasStation/gasstation.cs)
 
 #### Easy
 * [Two Sum](TwoSum/twosum.py)
@@ -34,7 +35,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   12   |  7 |  3  |
+| # solved |   12   |  8 |  3  |
 
 #
 
@@ -44,18 +45,19 @@
 * Backtracking x 2
 * Divide & Conquer x 1
 * Monotonic Stack x 1
+
 #### Intermediate
 * Hash Table x 5
 * Math x 4
 * Binary Search x 3
 * Recursion x 2
-* Greedy x 1
+* Greedy x 2
 * Binary Tree x 1
 * Tree x 1
 * Breadth-First Search x 1
 
 #### Fundamental
-* Array x 14
+* Array x 15
 * String x 4
 * Two Pointers x 4
 * Matrix x 3

@@ -7,22 +7,21 @@ namespace Test
 	{
 		public int SingleNumber(int[] nums)
 		{
-			if (len == 1)
+			int len = nums.Length;
+            
+            if (len == 1)
 				return nums[0];
             
-            
-
             Array.Sort(nums);
-			int len = nums.Length;
+			
+			if(nums[0] != nums[1])
+                return nums[0]; // first number check
 
 			for (int i = 1; i < len - 1; i++)
 			{
 				if (nums[i-1] != nums[i] && nums[i+1] != nums[i])
 					return nums[i];
 			}
-
-			if(nums[0] != nums[1])
-                return nums[0]; // first number check
 
 			if(nums[len-1] != nums[len-2])
 				return nums[len-1]; // last number check

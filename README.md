@@ -28,6 +28,7 @@
 * [Roman Numeral to Integer](RomanToInteger/romantoint.cs)
 * [Remove Element](RemoveElement/removeelement.cs)
 * [Climbing Stairs](ClimbingStairs/climbingstairs.cpp)
+* [Single Number](SingleNumber/singlenumber.cs)
 
 #
 
@@ -35,7 +36,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   12   |  8 |  3  |
+| # solved |   12   |  9 |  3  |
 
 #
 
@@ -57,7 +58,7 @@
 * Breadth-First Search x 1
 
 #### Fundamental
-* Array x 15
+* Array x 16
 * String x 4
 * Two Pointers x 4
 * Matrix x 3

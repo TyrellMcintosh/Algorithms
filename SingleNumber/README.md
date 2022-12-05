@@ -18,10 +18,10 @@ You must implement a solution with a linear runtime complexity and use only cons
 
 ### Performance
 #### Runtime
-**161 ms** faster than **75.78%** of C# online submissions.
+**117 ms** faster than **86.45%** of C# online submissions.
 
 #### Memory Usage
-**39.9 MB** less than **81.37%** of C# online submissions.
+**43.7 MB** less than **11.52%** of C# online submissions.
 
 #### Test Cases
 **61/61** test cases passed.

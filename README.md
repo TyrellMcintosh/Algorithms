@@ -29,6 +29,7 @@
 * [Remove Element](RemoveElement/removeelement.cs)
 * [Climbing Stairs](ClimbingStairs/climbingstairs.cpp)
 * [Single Number](SingleNumber/singlenumber.cs)
+* [ValidPalindrome](ValidPalindrome/validpalindrome.cs)
 
 #
 
@@ -36,7 +37,7 @@
 
 | Problems | Python | C# | C++ |
 |:--------:|:------:|:--:|:---:|
-| # solved |   12   |  9 |  3  |
+| # solved |   12   |  10 |  3  |
 
 #
 
@@ -59,8 +60,8 @@
 
 #### Fundamental
 * Array x 16
-* String x 4
-* Two Pointers x 4
+* String x 5
+* Two Pointers x 5
 * Matrix x 3
 * Sorting x 2
 * Linked List x 1

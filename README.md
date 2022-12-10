@@ -35,7 +35,7 @@
 
 ### Languages
 
-| Problems | Python | C# | C++ |
+| Problems | [Python](https://github.com/TyrellMcintosh/Algorithms/search?l=python) | [C#](https://github.com/TyrellMcintosh/Algorithms/search?l=c%23) | [C++](https://github.com/TyrellMcintosh/Algorithms/search?l=c%2B%2B) |
 |:--------:|:------:|:--:|:---:|
 | # solved |   12   |  10 |  3  |
 
